@@ -27,7 +27,7 @@ class File
      * @param ConfigInterface  $config
      * @param RequestInterface $request
      */
-    public function __construct(ConfigInterface $config, RequestInterface $request = null)
+    public function __construct(ConfigInterface $config, ?RequestInterface $request = null)
     {
         $this->config = $config;
 
